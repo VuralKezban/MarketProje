@@ -1,17 +1,17 @@
 package marketProje;
 
 public class Urun {
-    private int no;
+    private String no;
     private String urunAdi;
     private double fiyat;
 
-    public Urun(int no, String urunAdi, double fiyat) {
+    public Urun(String no, String urunAdi, double fiyat) {
         this.no = no;
         this.urunAdi = urunAdi;
         this.fiyat = fiyat;
     }
 
-    public int getNo() {
+    public String getNo() {
         return no;
     }
 
@@ -23,7 +23,7 @@ public class Urun {
         return fiyat;
     }
 
-    public void setNo(int no) {
+    public void setNo(String no) {
         this.no = no;
     }
 
